@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322DC3CD25DC4AFE00E470B1 /* ExcelFopmulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DC3CC25DC4AFE00E470B1 /* ExcelFopmulas.swift */; };
+		3235651B25D8588F00290BAE /* LoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235651A25D8588F00290BAE /* LoanViewController.swift */; };
 		3273957525D440D100037FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273957425D440D100037FA5 /* AppDelegate.swift */; };
 		3273957725D440D100037FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273957625D440D100037FA5 /* SceneDelegate.swift */; };
 		3273957925D440D100037FA5 /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273957825D440D100037FA5 /* BalanceViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322DC3CC25DC4AFE00E470B1 /* ExcelFopmulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFopmulas.swift; sourceTree = "<group>"; };
+		3235651A25D8588F00290BAE /* LoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewController.swift; sourceTree = "<group>"; };
 		3273957125D440D100037FA5 /* BankApp 2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BankApp 2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3273957425D440D100037FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3273957625D440D100037FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3235651D25D858BB00290BAE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3273957825D440D100037FA5 /* BalanceViewController.swift */,
+				3235651A25D8588F00290BAE /* LoanViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		3273956825D440D100037FA5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +69,14 @@
 		3273957325D440D100037FA5 /* BankApp 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				3273958225D440D100037FA5 /* Info.plist */,
 				3273957425D440D100037FA5 /* AppDelegate.swift */,
 				3273957625D440D100037FA5 /* SceneDelegate.swift */,
-				3273957825D440D100037FA5 /* BalanceViewController.swift */,
-				3273957A25D440D100037FA5 /* Main.storyboard */,
 				3273957D25D440D100037FA5 /* Assets.xcassets */,
 				3273957F25D440D100037FA5 /* LaunchScreen.storyboard */,
-				3273958225D440D100037FA5 /* Info.plist */,
+				3273957A25D440D100037FA5 /* Main.storyboard */,
+				3235651D25D858BB00290BAE /* View Controllers */,
+				322DC3CC25DC4AFE00E470B1 /* ExcelFopmulas.swift */,
 			);
 			path = "BankApp 2021";
 			sourceTree = "<group>";
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3235651B25D8588F00290BAE /* LoanViewController.swift in Sources */,
 				3273957925D440D100037FA5 /* BalanceViewController.swift in Sources */,
+				322DC3CD25DC4AFE00E470B1 /* ExcelFopmulas.swift in Sources */,
 				3273957525D440D100037FA5 /* AppDelegate.swift in Sources */,
 				3273957725D440D100037FA5 /* SceneDelegate.swift in Sources */,
 			);
