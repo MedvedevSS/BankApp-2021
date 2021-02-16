@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		322DC3CD25DC4AFE00E470B1 /* ExcelFopmulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DC3CC25DC4AFE00E470B1 /* ExcelFopmulas.swift */; };
+		322DC3D325DC605A00E470B1 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 322DC3D125DC605A00E470B1 /* Screenshot02.png */; };
+		322DC3D425DC605A00E470B1 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 322DC3D225DC605A00E470B1 /* Screenshot01.png */; };
 		3235651B25D8588F00290BAE /* LoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235651A25D8588F00290BAE /* LoanViewController.swift */; };
 		3273957525D440D100037FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273957425D440D100037FA5 /* AppDelegate.swift */; };
 		3273957725D440D100037FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273957625D440D100037FA5 /* SceneDelegate.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		322DC3CC25DC4AFE00E470B1 /* ExcelFopmulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFopmulas.swift; sourceTree = "<group>"; };
+		322DC3D125DC605A00E470B1 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		322DC3D225DC605A00E470B1 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		3235651A25D8588F00290BAE /* LoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewController.swift; sourceTree = "<group>"; };
 		3273957125D440D100037FA5 /* BankApp 2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BankApp 2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3273957425D440D100037FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322DC3D025DC600D00E470B1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				322DC3D225DC605A00E470B1 /* Screenshot01.png */,
+				322DC3D125DC605A00E470B1 /* Screenshot02.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		3235651D25D858BB00290BAE /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +82,7 @@
 		3273957325D440D100037FA5 /* BankApp 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				322DC3D025DC600D00E470B1 /* Screenshots */,
 				3273958225D440D100037FA5 /* Info.plist */,
 				3273957425D440D100037FA5 /* AppDelegate.swift */,
 				3273957625D440D100037FA5 /* SceneDelegate.swift */,
@@ -141,6 +155,8 @@
 				3273958125D440D100037FA5 /* LaunchScreen.storyboard in Resources */,
 				3273957E25D440D100037FA5 /* Assets.xcassets in Resources */,
 				3273957C25D440D100037FA5 /* Main.storyboard in Resources */,
+				322DC3D425DC605A00E470B1 /* Screenshot01.png in Resources */,
+				322DC3D325DC605A00E470B1 /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
